@@ -1,6 +1,8 @@
 *.iml
-.gradle
+.gradle/
 /local.properties
+local.properties
+.idea/
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -8,8 +10,15 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
-/build
+build/
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+
+# El wrapper de Gradle SI debe versionarse
+!gradle-wrapper.jar
+!gradle/wrapper/
